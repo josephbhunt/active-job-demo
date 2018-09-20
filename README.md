@@ -1,7 +1,7 @@
 ## Getting Started
 1. Clone repo
 2. `docker-compose build`
-3. Create and migrate the database in the docker container: `docker exec active-storage-demo_web_1 rails db:create db:migrate`
+3. Create and migrate the database in the docker container: `docker exec active-job-demo_web_1 rails db:create db:migrate`
 4. `docker-compose up`
 
 ### Reference
