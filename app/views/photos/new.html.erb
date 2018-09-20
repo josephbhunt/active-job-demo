@@ -1,0 +1,15 @@
+<h1>Upload Photo</h1>
+
+<%= link_to "Back", photos_path %>
+
+</br></br>
+
+<%= form_for :photo, url: photos_path do |f| %>
+  <label>Title</label>
+  <%= f.text_field :title %>
+  </br>
+  <label>Images</label>
+  <%= f.file_field :images, multiple: true %>
+  </br>
+  <%= f.submit %>
+<% end %>
